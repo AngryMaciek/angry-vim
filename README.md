@@ -12,7 +12,7 @@ mv .vimrc .vimrc_backup # backup current .vimrc
 ln -s custom-vim/vimrc .vimrc # link new rcfile
 # set monokai color theme:
 mkdir -p .vim/colors
-ln -s vim-monokai-master/colors/monokai.vim .vim/colors/monokai.vim
+ln -s ~/custom-vim/vim-monokai-master/colors/monokai.vim .vim/colors/monokai.vim
 ```
 
 ---
