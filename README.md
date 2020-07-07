@@ -1,4 +1,4 @@
-# Vim configuration
+# Angry Vim
 *Maciej Bak*  
 *Swiss Institute of Bioinformatics*
 
