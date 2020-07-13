@@ -13,6 +13,8 @@ ln -s custom-vim/vimrc .vimrc # link new rcfile
 # set monokai color theme:
 mkdir -p .vim/colors
 ln -s ~/custom-vim/vim-monokai-master/colors/monokai.vim .vim/colors/monokai.vim
+# install vim-airline
+git clone https://github.com/vim-airline/vim-airline ~/.vim/pack/dist/start/vim-airline
 ```
 
 ---
