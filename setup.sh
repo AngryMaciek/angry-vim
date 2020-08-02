@@ -14,6 +14,10 @@
 
 cd $HOME
 
+# prepare the directories
+mkdir -p .vim/colors
+mkdir -p .vim/pack/packages/start
+
 # backup current vim config file
 mv .vimrc .vimrc-backup
 
@@ -21,8 +25,13 @@ mv .vimrc .vimrc-backup
 ln -s $HOME/angry-vim/vimrc .vimrc
 
 # set monokai color theme
-mkdir -p .vim/colors
 ln -s $HOME/angry-vim/vim-monokai-master/colors/monokai.vim .vim/colors/monokai.vim
 
 # install vim-airline
 git clone https://github.com/AngryMaciek/vim-airline .vim/pack/packages/start/vim-airline
+
+# install vim-fugitive
+git clone https://github.com/AngryMaciek/vim-fugitive.git .vim/pack/packages/start/vim-fugitive
+
+# install vim-gitgutter
+git clone https://github.com/AngryMaciek/vim-gitgutter.git .vim/pack/packages/start/vim-gitgutter
