@@ -2,25 +2,22 @@
 *Maciej Bak*  
 *Swiss Institute of Bioinformatics*
 
-Vim configuration which I use at work (supported on Linux, Vim version > 8.0).
+Vim configuration which I use at work.  
+(Supported on 64-bit Linux, Vim version > 8.0)
 
-#### Setup: 
+#### Setup:
 ```bash
 cd $HOME
-git clone https://github.com/AngryMaciek/custom-vim.git
-mv .vimrc .vimrc_backup # backup current .vimrc
-ln -s custom-vim/vimrc .vimrc # link new rcfile
-# set monokai color theme:
-mkdir -p .vim/colors
-ln -s ~/custom-vim/vim-monokai-master/colors/monokai.vim .vim/colors/monokai.vim
-# install vim-airline
-git clone https://github.com/vim-airline/vim-airline ~/.vim/pack/dist/start/vim-airline
+git clone https://github.com/AngryMaciek/angry-vim.git
+bash angry-vim/setup.sh
+#
+# Native plugin managment has one drawback, helptags are not automatically re-generated. You can update them by using:
+# :helptags ALL
+# Also, safely ignore the error:
+# E152: Cannot open /opt/local/share/vim/vim81/doc/tags for writing
 ```
 
----
-
-TODO:
-* https://github.com/sirver/ultisnips
-* https://github.com/vim-syntastic/syntastic
-* https://github.com/vim-airline/vim-airline
-* clean old rc
+#### Next Release:
+* snippets & autocompletion
+* syntax checking
+* check plugins from Tim Pope's GitHub
