@@ -1,4 +1,4 @@
-# Angry Vim
+# Angry Vim (╯°□°)╯︵ ┻━┻
 *Maciej Bak*  
 *Swiss Institute of Bioinformatics*
 
