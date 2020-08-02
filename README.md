@@ -1,4 +1,7 @@
 # Angry Vim (╯°□°)╯︵ ┻━┻
+
+![panzer.spngvg](panzer.png)
+
 *Maciej Bak*  
 *Swiss Institute of Bioinformatics*
 
@@ -17,10 +20,14 @@ bash angry-vim/setup.sh
 # E152: Cannot open /opt/local/share/vim/vim81/doc/tags for writing
 ```
 
+#### License:
+MIT
+
 #### Next Release:
 * snippets & autocompletion
 * syntax checking
 * check plugins from Tim Pope's GitHub
+* double-check the color scheme
 
 ---
 
