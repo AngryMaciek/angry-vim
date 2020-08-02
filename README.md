@@ -6,7 +6,7 @@
 *Swiss Institute of Bioinformatics*
 
 Vim configuration which I use at work.  
-(Supported on 64-bit Linux, Vim version > 8.0)
+(Supported on 64-bit Linux & macOS Catalina, Vim version > 8.1)
 
 #### Setup:
 ```bash

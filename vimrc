@@ -92,11 +92,10 @@ endfunction
 "
 function! AirlineInit()
   "let g:airline_section_a = airline#section#create(['mode'])
-  let g:airline_section_b = airline#section#create(['%{GitStatus()}', ' ', 'branch'])
+  "let g:airline_section_b = airline#section#create(['%{GitStatus()}', ' ', 'branch'])
   "let g:airline_section_c = airline#section#create([''])
   "let g:airline_section_x = airline#section#create([''])
   "let g:airline_section_y = airline#section#create([''])
-  "let g:airline_section_z = get(g:, 'airline_section_z', g:airline_section_z)
-  let g:airline_section_z .= airline#section#create(['/%{strlen(getline("."))}'])
+  "let g:airline_section_z .= airline#section#create(['/%{strlen(getline("."))}'])
 endfunction
 autocmd User AirlineAfterInit call AirlineInit()
