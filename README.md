@@ -21,3 +21,8 @@ bash angry-vim/setup.sh
 * snippets & autocompletion
 * syntax checking
 * check plugins from Tim Pope's GitHub
+
+---
+
+vim -u NONE -c "helptags ALL" -c q
+how to test helptags?
