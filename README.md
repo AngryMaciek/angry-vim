@@ -31,7 +31,5 @@ MIT
 
 ---
 
-test helptags?
-test on Linux
 colorchemes might not work on mac
 install external color scheme (fork)
