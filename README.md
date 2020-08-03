@@ -14,7 +14,8 @@ cd $HOME
 git clone https://github.com/AngryMaciek/angry-vim.git
 bash angry-vim/setup.sh
 
-# Native plugin managment has one drawback, helptags are not automatically re-generated. You can update them inside vim by using:
+# Native plugin managment has one drawback, helptags are not automatically re-generated.
+# You can update them inside vim by using:
 # :helptags ALL
 # Also, safely ignore error of the following type:
 # E152: Cannot open /opt/local/share/vim/vim81/doc/tags for writing
