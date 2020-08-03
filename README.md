@@ -27,9 +27,10 @@ MIT
 * snippets & autocompletion
 * syntax checking
 * check plugins from Tim Pope's GitHub
-* double-check the color scheme
 
 ---
 
 test helptags?
 test on Linux
+colorchemes might not work on mac
+install external color scheme (fork)
