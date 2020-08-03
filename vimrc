@@ -44,7 +44,7 @@ set cursorline
 hi cursorline cterm=none term=none
 autocmd WinEnter * setlocal cursorline
 autocmd WinLeave * setlocal nocursorline
-highlight CursorLine guibg=#444444 ctermbg=238
+highlight CursorLine guibg=#262626 ctermbg=235
 
 " Gitgutter: remove the limit on changes to display
 let g:gitgutter_max_signs = -1   " default value (otherwise)
