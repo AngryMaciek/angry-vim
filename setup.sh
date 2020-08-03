@@ -24,11 +24,12 @@ mv .vimrc .vimrc-backup
 # link the new dotfile
 ln -s $HOME/angry-vim/vimrc .vimrc
 
-# set monokai color theme
-ln -s $HOME/angry-vim/vim-monokai-master/colors/monokai.vim .vim/colors/monokai.vim
+# install molokai color scheme
+git clone https://github.com/AngryMaciek/molokai.git .vim/colors/molokai
+ln -s $HOME/.vim/colors/molokai/colors/molokai.vim .vim/colors/molokai.vim
 
 # install vim-airline
-git clone https://github.com/AngryMaciek/vim-airline .vim/pack/packages/start/vim-airline
+git clone https://github.com/AngryMaciek/vim-airline.git .vim/pack/packages/start/vim-airline
 
 # install vim-fugitive
 git clone https://github.com/AngryMaciek/vim-fugitive.git .vim/pack/packages/start/vim-fugitive

@@ -8,7 +8,7 @@ set nocompatible
 set mouse=a
 
 " Monokai color theme
-colorscheme monokai
+colorscheme molokai
 
 " Display line numbers
 "set numberwidth=3

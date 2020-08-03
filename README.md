@@ -28,8 +28,3 @@ MIT
 * snippets & autocompletion
 * syntax checking
 * check plugins from Tim Pope's GitHub
-
----
-
-colorchemes might not work on mac
-install external color scheme (fork)
