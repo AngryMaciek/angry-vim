@@ -26,6 +26,9 @@ set wildmenu
 set spelllang=en_us
 set nospell
 
+" Autoload file changes. You can undo by pressing u
+set autoread
+
 " Enable smart tab line
 let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:airline#extensions#tabline#left_sep = ' '

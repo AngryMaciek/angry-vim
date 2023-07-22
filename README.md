@@ -26,5 +26,4 @@ MIT
 
 #### Next Release:
 * snippets & autocompletion
-* syntax checking
-* check plugins from Tim Pope's GitHub
+* syntax checking:
